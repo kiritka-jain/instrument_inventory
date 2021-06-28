@@ -1,4 +1,4 @@
-from instrument_inventory.enum_instrument import Builder, Type, Wood
+from enum_instrument import Builder, Type, Wood
 
 
 class InstrumentSpecifications:

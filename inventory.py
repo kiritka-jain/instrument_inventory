@@ -1,7 +1,7 @@
 from typing import List
 
-from instrument_inventory.instrument_specification import InstrumentSpecifications
-from instrument_inventory.instruments import Instrument
+from instrument_specification import InstrumentSpecifications
+from instruments import Instrument
 
 
 class Inventory:
