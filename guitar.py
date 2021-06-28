@@ -1,6 +1,5 @@
-from instrument_inventory.guitar_specs import GuitarSpecs
-from instrument_inventory.instruments import Instrument
-from instrument_inventory.instrument_specification import InstrumentSpecifications
+from guitar_specs import GuitarSpecs
+from instruments import Instrument
 
 
 class Guitar(Instrument):

@@ -1,5 +1,5 @@
-from instrument_inventory.enum_instrument import Builder, Type, Wood
-from instrument_inventory.instrument_specification import InstrumentSpecifications
+from enum_instrument import Builder, Type, Wood
+from instrument_specification import InstrumentSpecifications
 
 
 class GuitarSpecs(InstrumentSpecifications):

@@ -1,4 +1,4 @@
-from instrument_inventory.instrument_specification import InstrumentSpecifications
+from instrument_specification import InstrumentSpecifications
 
 
 class Instrument:

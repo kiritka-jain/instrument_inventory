@@ -1,10 +1,9 @@
-from instrument_inventory.enum_instrument import Builder, Type, Wood, Style
-from instrument_inventory.guitar import Guitar
-from instrument_inventory.guitar_specs import GuitarSpecs
-from instrument_inventory.mandolin import Mandolin
-from instrument_inventory.instrument_specification import InstrumentSpecifications
-from instrument_inventory.inventory import Inventory
-from instrument_inventory.mandolin_specs import MandolinSpecs
+from enum_instrument import Builder, Type, Wood, Style
+from guitar import Guitar
+from guitar_specs import GuitarSpecs
+from inventory import Inventory
+from mandolin import Mandolin
+from mandolin_specs import MandolinSpecs
 
 specification_1 = GuitarSpecs(Builder.FENDER, 'new', Type.AUCOUSTIC, Wood.MAHAGONY, Wood.MAHAGONY,12)
 specification_2 = GuitarSpecs(Builder.MARTIN, 'old', Type.ELECTRIC, Wood.INDIAN_ROSEWOOD, Wood.MAHAGONY)
